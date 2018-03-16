@@ -1,0 +1,20 @@
+[
+        {
+            "itemNumber": 3200,
+            "originAirport": "ABE",
+            "destinationAirport": "HNL",
+            "groupNumber": 1,
+            "numberOfFlights": 1,
+            "minService": "C",
+            "typeOfTravel": "D",
+            "paxLevel": "F",
+            "paxCount": 74,
+            "originCity": "ALLENTOWN",
+            "originState": "PA",
+            "originCountry": "USA",
+            "destinationCity": "HONOLULU",
+            "destinationState": "HI",
+            "destinationCountry": "USA",
+            "groupType": "Group 1 Dom EC"
+        }
+]

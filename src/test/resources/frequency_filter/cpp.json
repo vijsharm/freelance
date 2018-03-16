@@ -1,0 +1,20 @@
+{
+  "_id": "562fc12e90c8dcf09558134b2c55e4f9",
+  "_rev": "1-17fdf1d5dfec41ecf42eb7bb93ebff05",
+  "itemNumber": 6334,
+  "originAirport": "CHS",
+  "destinationAirport": "FLL",
+  "groupNumber": 2,
+  "numberOfFlights": 1,
+  "minService": "C",
+  "typeOfTravel": "D",
+  "paxLevel": "F",
+  "paxCount": 480,
+  "originCity": "CHARLESTON",
+  "originState": "SC",
+  "originCountry": "USA",
+  "destinationCity": "FT. LAUDERDALE",
+  "destinationState": "FL",
+  "destinationCountry": "USA",
+  "groupType": "Group 2 Domestic"
+}

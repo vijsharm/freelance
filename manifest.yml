@@ -1,0 +1,10 @@
+applications:
+- name: GSAPointsProcessor
+  memory: 3072M
+  path: target/gsa-points-processor-0.0.1-SNAPSHOT.jar
+  buildpack: liberty-for-java
+  no-route: true
+  instances: 1
+  domain: mybluemix.net
+  
+  

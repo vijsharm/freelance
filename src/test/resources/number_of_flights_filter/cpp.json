@@ -1,0 +1,18 @@
+        {
+            "itemNumber": 44,
+            "originAirport": "ACK",
+            "destinationAirport": "DCA",
+            "groupNumber": 1,
+            "numberOfFlights": 1,
+            "minService": "C",
+            "typeOfTravel": "D",
+            "paxLevel": "F",
+            "paxCount": 158,
+            "originCity": "NANTUCKET",
+            "originState": "MA",
+            "originCountry": "USA",
+            "destinationCity": "WASHINGTON",
+            "destinationState": "DC",
+            "destinationCountry": "USA",
+            "groupType": "Group 1 Domestic"
+        }

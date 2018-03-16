@@ -1,0 +1,20 @@
+[
+     {
+            "itemNumber": 2600,
+            "originAirport": "ATL",
+            "destinationAirport": "AMS",
+            "groupNumber": 1,
+            "numberOfFlights": 1,
+            "minService": "C",
+            "typeOfTravel": "I",
+            "paxLevel": "F",
+            "paxCount": 795,
+            "originCity": "ATLANTA",
+            "originState": "GA",
+            "originCountry": "USA",
+            "destinationCity": "AMSTERDAM",
+            "destinationState": "",
+            "destinationCountry": "NETHERLANDS",
+            "groupType": "Group 1 International"
+        }
+]

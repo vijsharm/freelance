@@ -1,0 +1,40 @@
+batch:
+  no-of-partitions: 2
+  chunk-size : 120
+  gsa-database-name : gsa
+  cpp-results-database-name: cpp-results
+  eligibility-results-database-name: eligibility-results 
+  stations-database-name: station_codes
+  settings-database-name: settings
+  run-database-name: runs
+  equipment-codes-database-name: equipment_codes
+ 
+messaging:
+  run-exchange: GSA_RUN_PROCESS_EXCHANGE
+  run-status-update-exchange: GSA_RUN_STATUS_UPDATE_EXCHANGE
+  run-queue: GSA_RUN_SUBMIT_QUEUE
+  run-routing-key: runSubmit
+  status-exchange: GSA_RUN_LOG_MESSAGES_EXCHANGE
+  status-queue: GSA_RUN_UPDATE_QUEUE
+  status-routing-key: runUpdate
+  log-exchange: GSA_RUN_LOG_MESSAGES_EXCHANGE
+  
+cpp-run-compare:
+  database-name: cpp-run-compare
+  status-database-name: cpp-run-compare-status
+  read-size: 100
+  write-size: 200
+  core-pool-size: 1
+  max-pool-size: 1
+  queue-capacity: 100 
+  messaging:
+    exchange-name: GSA_COMPARE_EXCHANGE  
+    submit-queue: GSA_COMPARE_SUBMIT
+    status-queue: GSA_COMPARE_STATUS
+    submit-routing-key: compare
+    status-routing-key: status
+         
+spring:
+  batch:
+      job:
+        enabled: false

@@ -1,0 +1,20 @@
+[
+        {
+            "itemNumber": 112,
+            "originAirport": "ATL",
+            "destinationAirport": "BDL",
+            "groupNumber": 1,
+            "numberOfFlights": 2,
+            "minService": "C",
+            "typeOfTravel": "D",
+            "paxLevel": "E",
+            "paxCount": 2880,
+            "originCity": "ATLANTA",
+            "originState": "GA",
+            "originCountry": "USA",
+            "destinationCity": "HARTFORD",
+            "destinationState": "CT",
+            "destinationCountry": "USA",
+            "groupType": "Group 1 Domestic"
+        }
+]

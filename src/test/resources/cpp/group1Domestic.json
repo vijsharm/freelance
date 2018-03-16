@@ -1,0 +1,20 @@
+[
+        {
+            "itemNumber": 1,
+            "originAirport": "ABE",
+            "destinationAirport": "ATL",
+            "groupNumber": 1,
+            "numberOfFlights": 1,
+            "minService": "C",
+            "typeOfTravel": "D",
+            "paxLevel": "F",
+            "paxCount": 385,
+            "originCity": "ALLENTOWN",
+            "originState": "PA",
+            "originCountry": "USA",
+            "destinationCity": "ATLANTA",
+            "destinationState": "GA",
+            "destinationCountry": "USA",
+            "groupType": "Group 1 Domestic"
+        }
+]

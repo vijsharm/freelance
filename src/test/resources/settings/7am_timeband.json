@@ -1,0 +1,2238 @@
+{
+  "name": "test_settings",
+  "numberOfSeatsForJet": 60,
+  "approvedPartners": [
+    {
+      "name": "AB"
+    },
+    {
+      "name": "AY"
+    },
+    {
+      "name": "BA"
+    },
+    {
+      "name": "CX"
+    },
+    {
+      "name": "EY"
+    },
+    {
+      "name": "FJ"
+    },
+    {
+      "name": "GK"
+    },
+    {
+      "name": "HU"
+    },
+    {
+      "name": "IB"
+    },
+    {
+      "name": "JL"
+    },
+    {
+      "name": "MH"
+    },
+    {
+      "name": "QF"
+    },
+    {
+      "name": "QR"
+    },
+    {
+      "name": "RJ"
+    }
+  ],
+  "groupSettings": {
+    "Group1": {
+      "circuities": [
+        {
+          "from": 0,
+          "to": 600,
+          "percentage": 185,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 601,
+          "to": 1000,
+          "percentage": 175,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 1001,
+          "to": 1400,
+          "percentage": 140,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 1401,
+          "to": 2000,
+          "percentage": 135,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 2001,
+          "to": 3000,
+          "percentage": 130,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 3001,
+          "to": 100000,
+          "percentage": 125,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 0,
+          "to": 500,
+          "percentage": 175,
+          "travelType": "International"
+        },
+        {
+          "from": 501,
+          "to": 1000,
+          "percentage": 160,
+          "travelType": "International"
+        },
+        {
+          "from": 1001,
+          "to": 1500,
+          "percentage": 145,
+          "travelType": "International"
+        },
+        {
+          "from": 1501,
+          "to": 2500,
+          "percentage": 140,
+          "travelType": "International"
+        },
+        {
+          "from": 2501,
+          "to": 4000,
+          "percentage": 135,
+          "travelType": "International"
+        },
+        {
+          "from": 4001,
+          "to": 6000,
+          "percentage": 130,
+          "travelType": "International"
+        },
+        {
+          "from": 6001,
+          "to": 100000,
+          "percentage": 125,
+          "travelType": "International"
+        }
+      ],
+      "timebands": [
+        {
+          "name": "Domestic Non-Stop Eastbound",
+          "serviceType": "NON_STOP",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 10
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 10
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Non-Stop Eastbound Crossing Three Timezones",
+          "serviceType": "NON_STOP",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 10
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 10
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Non-Stop Westbound",
+          "serviceType": "NON_STOP",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 10
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 10
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Non-Stop Westbound Crossing three timezones",
+          "serviceType": "NON_STOP",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 10
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 10
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Direct Eastbound",
+          "serviceType": "DIRECT",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Direct Eastbound Crossing Three Timezones",
+          "serviceType": "DIRECT",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Direct Westbound",
+          "serviceType": "DIRECT",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Direct Westbound Crossing three timezones",
+          "serviceType": "DIRECT",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Connect Eastbound",
+          "serviceType": "CONNECTING",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Connect Eastbound Crossing Three Timezones",
+          "serviceType": "CONNECTING",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Connect Westbound",
+          "serviceType": "CONNECTING",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Connect Westbound Crossing three timezones",
+          "serviceType": "CONNECTING",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop Group 1 International",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "Group 1 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop Group 1 Intl EC",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "Group 1 Intl EC",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop G 1 Intl EC wBussiness Class",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "G 1 Intl EC wBussiness Class",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop G 1 Havana",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "G 1 Havana",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop G 1 5th Freedom",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "G 1 5th Freedom",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop Group 2 International",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "Group 2 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct Group 1 International",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "Group 1 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct Group 1 Intl EC",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "Group 1 Intl EC",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct G 1 Intl EC wBussiness Class",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "G 1 Intl EC wBussiness Class",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct G 1 Havana",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "G 1 Havana",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct G 1 5th Freedom",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "G 1 5th Freedom",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 0
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct Group 2 International",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "Group 2 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect Group 1 International",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "Group 1 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect Group 1 Intl EC",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "Group 1 Intl EC",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect G 1 Intl EC wBussiness Class",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "G 1 Intl EC wBussiness Class",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect G 1 Havana",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "G 1 Havana",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect G 1 5th Freedom",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "G 1 5th Freedom",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 0
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect Group 2 International",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "Group 2 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        }
+      ],
+      "miscSettings": {
+        "numberOfConnectionsForEC": 2,
+        "groundTimeDomestic": 120,
+        "groundTimeDomesticEC": 300,
+        "groundTimeIntExcMexicoAndCanada": 180,
+        "groundTimeIntEC": 300,
+        "groundTimeCanadaAndMexico": 150
+      }
+    },
+    "Group2": {
+      "circuities": [
+        {
+          "from": 0,
+          "to": 600,
+          "percentage": 185,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 601,
+          "to": 1000,
+          "percentage": 175,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 1001,
+          "to": 1400,
+          "percentage": 140,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 1401,
+          "to": 2000,
+          "percentage": 135,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 2001,
+          "to": 3000,
+          "percentage": 130,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 3001,
+          "to": 100000,
+          "percentage": 125,
+          "travelType": "Domestic"
+        },
+        {
+          "from": 0,
+          "to": 500,
+          "percentage": 175,
+          "travelType": "International"
+        },
+        {
+          "from": 501,
+          "to": 1000,
+          "percentage": 160,
+          "travelType": "International"
+        },
+        {
+          "from": 1001,
+          "to": 1500,
+          "percentage": 145,
+          "travelType": "International"
+        },
+        {
+          "from": 1501,
+          "to": 2500,
+          "percentage": 140,
+          "travelType": "International"
+        },
+        {
+          "from": 2501,
+          "to": 4000,
+          "percentage": 135,
+          "travelType": "International"
+        },
+        {
+          "from": 4001,
+          "to": 6000,
+          "percentage": 130,
+          "travelType": "International"
+        },
+        {
+          "from": 6001,
+          "to": 100000,
+          "percentage": 125,
+          "travelType": "International"
+        }
+      ],
+      "timebands": [
+        {
+          "name": "Domestic Non-Stop Eastbound",
+          "serviceType": "NON_STOP",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 10
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 10
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Non-Stop Eastbound Crossing Three Timezones",
+          "serviceType": "NON_STOP",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 10
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 10
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Non-Stop Westbound",
+          "serviceType": "NON_STOP",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 10
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 10
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Non-Stop Westbound Crossing three timezones",
+          "serviceType": "NON_STOP",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 10
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 4
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 10
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Direct Eastbound",
+          "serviceType": "DIRECT",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Direct Eastbound Crossing Three Timezones",
+          "serviceType": "DIRECT",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Direct Westbound",
+          "serviceType": "DIRECT",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Direct Westbound Crossing three timezones",
+          "serviceType": "DIRECT",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Connect Eastbound",
+          "serviceType": "CONNECTING",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Connect Eastbound Crossing Three Timezones",
+          "serviceType": "CONNECTING",
+          "travelType": "Domestic",
+          "eastToWest": true,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Connect Westbound",
+          "serviceType": "CONNECTING",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": false,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Domestic Connect Westbound Crossing three timezones",
+          "serviceType": "CONNECTING",
+          "travelType": "Domestic",
+          "eastToWest": false,
+          "eastToWestIncThreeTimezones": true,
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 2
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop Group 1 International",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "Group 1 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop Group 1 Intl EC",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "Group 1 Intl EC",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop G 1 Intl EC wBussiness Class",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "G 1 Intl EC wBussiness Class",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop G 1 Havana",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "G 1 Havana",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop G 1 5th Freedom",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "G 1 5th Freedom",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Non-Stop Group 2 International",
+          "serviceType": "NON_STOP",
+          "travelType": "International",
+          "groupType": "Group 2 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 20
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 20
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 20
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct Group 1 International",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "Group 1 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct Group 1 Intl EC",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "Group 1 Intl EC",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct G 1 Intl EC wBussiness Class",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "G 1 Intl EC wBussiness Class",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct G 1 Havana",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "G 1 Havana",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct G 1 5th Freedom",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "G 1 5th Freedom",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 0
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Intenational Direct Group 2 International",
+          "serviceType": "DIRECT",
+          "travelType": "International",
+          "groupType": "Group 2 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect Group 1 International",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "Group 1 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect Group 1 Intl EC",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "Group 1 Intl EC",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect G 1 Intl EC wBussiness Class",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "G 1 Intl EC wBussiness Class",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect G 1 Havana",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "G 1 Havana",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect G 1 5th Freedom",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "G 1 5th Freedom",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 0
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 0
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "name": "Intenational Connect Group 2 International",
+          "serviceType": "CONNECTING",
+          "travelType": "International",
+          "groupType": "Group 2 International",
+          "timebandDetails": [
+            {
+              "fromTime": "07:00 AM",
+              "toTime": "09:30 AM",
+              "points": 5
+            },
+            {
+              "fromTime": "09:31 AM",
+              "toTime": "02:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "03:00 PM",
+              "toTime": "07:00 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "07:01 PM",
+              "toTime": "10:59 PM",
+              "points": 5
+            },
+            {
+              "fromTime": "11:00 PM",
+              "toTime": "06:59 AM",
+              "points": 5
+            }
+          ]
+        }
+      ],
+      "miscSettings": {
+        "numberOfConnectionsForEC": 2,
+        "groundTimeDomestic": 120,
+        "groundTimeDomesticEC": 300,
+        "groundTimeIntExcMexicoAndCanada": 180,
+        "groundTimeIntEC": 300,
+        "groundTimeCanadaAndMexico": 150
+      }
+    }
+  }
+}

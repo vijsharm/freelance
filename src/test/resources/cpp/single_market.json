@@ -1,0 +1,20 @@
+[
+     {
+            "itemNumber": 167,
+            "originAirport": "ATL",
+            "destinationAirport": "IAH",
+            "groupNumber": 1,
+            "numberOfFlights": 2,
+            "minService": "C",
+            "typeOfTravel": "D",
+            "paxLevel": "E",
+            "paxCount": 2262,
+            "originCity": "ATLANTA",
+            "originState": "GA",
+            "originCountry": "USA",
+            "destinationCity": "HOUSTON",
+            "destinationState": "TX",
+            "destinationCountry": "USA",
+            "groupType": "Group 1 Domestic"
+        }
+]

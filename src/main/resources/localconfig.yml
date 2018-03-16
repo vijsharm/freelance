@@ -1,0 +1,13 @@
+cloudant:
+  url: https://61d140e6-2768-4914-bd03-373ab4001dea-bluemix:63c4d537b1dfa994622fd26081d384f78011a7ef922c01861b54b68b40597ba6@61d140e6-2768-4914-bd03-373ab4001dea-bluemix.cloudant.com
+       
+datasource:
+   jdbcurl: jdbc:postgresql://localhost:5432/postgres
+   username: postgres
+   password: postgres
+   driverclassname: org.postgresql.Driver
+     
+spring:
+logging:
+  level:
+    com.aa.gsa: DEBUG
